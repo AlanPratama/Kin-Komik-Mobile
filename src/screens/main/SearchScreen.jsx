@@ -75,7 +75,7 @@ export default function SearchScreen() {
             onSubmitEditing={() => {
               handleSubmit(true);
             }}
-            className="text-white w-full bg-[#262626] rounded-r-full placeholder:text-white"
+            className="text-white w-full h-12 bg-[#262626] rounded-r-full placeholder:text-white"
             placeholder="Search..."
           />
         </View>

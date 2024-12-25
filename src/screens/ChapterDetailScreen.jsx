@@ -111,6 +111,7 @@ export default function ChapterDetailScreen({ route }) {
                       activeOpacity={0.85}
                       onPress={() => getData(data?.prevChapter?.split("/")[3])}
                       className={`${data?.prevChapter ? 'bg-accent' : 'bg-neutral-500'} py-1 rounded w-[48%]`}
+                      disabled={!data?.prevChapter}
                     >
                       <Text className="text-center text-dark font-medium">
                         Prev
