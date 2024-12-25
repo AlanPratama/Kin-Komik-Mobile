@@ -1,28 +1,48 @@
 {
   "expo": {
-    "name": "KinKomikMobile",
+    "name": "Kin Komik",
     "slug": "KinKomikMobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/k-logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/images/k-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/images/k-logo.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.alanpratama.KinKomikMobile"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/k-logo.png",
+      "bundler": "metro"
+    },
+    "fonts": [
+      {
+        "asset": "./assets/font/poppins/Poppins-Regular.ttf",
+        "family": "Poppins-Regular"
+      },
+      {
+        "asset": "./assets/font/go3v2.ttf",
+        "family": "Go"
+      }
+    ],
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "547b4354-de9a-4f8c-b7d9-933f1e5a51a0"
+      }
     }
   }
 }

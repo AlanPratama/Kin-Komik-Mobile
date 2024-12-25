@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Go";
+  src: url("./assets/got/font/go3v2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
